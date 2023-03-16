@@ -4,10 +4,10 @@ public class Ticket {
     private double price;
     private Person person;
 
-    public Ticket(int row, int seat, double price, Person person) {
+    public Ticket(int row, int seat, double priceee, Person person) {
         this.row = row;
         this.seat = seat;
-        this.price = price;
+        this.price = priceee;
         this.person = person;
     }
 
